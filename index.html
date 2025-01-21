@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="assets/css/mobile-first.css">
+</head>
+<body>
+    <header>
+        <h1>Cronômetro:</h1>
+    </header>
+
+    <section id="secCrono">
+            <span id="hora" class="horario">
+                
+            </span>
+            :
+            <span id="min" class="horario">
+                
+            </span>
+            :
+            <span id="seg" class="horario">
+                
+            </span>
+    </section>
+    <section id="secBtn">
+        <input type="button" value="Iniciar" class="btn" id="iniciar" onclick="iniciarCrono()">
+        <input type="button" value="Pausar" class="btn" id="pausar">
+        <input type="button" value="Continuar" class="btn" id="continuar">
+        <input type="button" value="Reiniciar" class="btn" id="reiniciar">
+    </section>
+    <ul>
+        <li>Não é possível reiniciar o cronômetro enquanto ele estiver pausado.</li>
+        <li><strong>NÃO</strong> aperte repetidas vezes o mesmo botão, se não o cronômetro pode dar problema.</li>
+        <li>Se começar a Pausar e Continuar muito, o cronômetro também da problema :(</li>
+        <li>Infelizmente esses problemas atualmente eu não sei resolver.</li>
+        <li>Mas pelo menos se deixar o cronômetro parado enquanto ativo, ele funciona :)</li>
+        <li>O limite do cronômetro é de 60 horas</li>
+    </ul>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

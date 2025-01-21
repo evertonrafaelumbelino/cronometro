@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+#secCrono {
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.horario {
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+#secBtn {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+#iniciar:hover {
+    background-color: greenyellow;
+}
+
+#pausar:hover {
+    background-color: yellow;
+}
+
+#continuar:hover {
+    background-color: aquamarine;
+}
+
+#reiniciar:hover {
+    background-color: red;
+}
+
+ul {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+ul > li {
+    margin: 10px;
+    font-size: 18px;
+}
