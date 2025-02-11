@@ -1,3 +1,3 @@
 # Cronômetro
 
-Projeto que criei sozinho, para treinar e praticar HTML, CSS e JavaScript
+Projeto prático criando um cronômetro, para treinar e praticar tecnologias como HTML, CSS e JavaScript
